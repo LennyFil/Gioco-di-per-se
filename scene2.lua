@@ -1,7 +1,7 @@
 -----------------------------------------------------------------------------------------
 --
--- scene2.lua
---
+-- scene2.lua 
+--VEDI IN FONDO PER ALCUNE MIE NOTE
 -----------------------------------------------------------------------------------------
 display.setStatusBar( display.hiddenStatusBar )
 
@@ -122,12 +122,13 @@ return scene
 
 
 
-
-
---
-
-
-
+--Cosa funziona: 
+--la funzione spawnbloc e movement ma collegate assieme non vanno
+--Cose da fare: 
+--quando si entra nella scena deve già crearsi il primo blocco che si sposta a dx e sx 
+--più blocchetto simile in basso per indicare il punto di partenza della costruzione della 
+--tower; quando si esce dalla scena deve eliminare i blocchi e chiudere tutte le funzioni; 
+--e direi che se combiniamo a far questo è già un bel passo
 
 
 
